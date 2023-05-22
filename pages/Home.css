@@ -1,0 +1,23 @@
+.fle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Adjust as needed */
+  }
+  
+  .Cards {
+    flex-basis: calc(20% - 30px); /* Adjust as needed */
+    margin: 10px; /* Adjust as needed */
+  }
+  
+  @media (max-width: 768px) {
+    .Cards {
+      flex-basis: calc(33.33% - 20px); /* Adjust as needed */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .Cards {
+      flex-basis: calc(50% - 20px); /* Adjust as needed */
+    }
+  }
+  
